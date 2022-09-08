@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.12.2",
     "autoprefixer": "^10.4.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

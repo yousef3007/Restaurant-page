@@ -41,7 +41,7 @@ html {
 }
 a {
   font-weight: 600;
-  color: #314584;
+  color: #CA3DFF;
   text-decoration: none;
   letter-spacing: 1px;
   position: relative;
@@ -67,7 +67,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #314584;
+  color: #CA3DFF;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -79,7 +79,7 @@ h6,
   2. Typography 
 ------------------------------------------------------------*/
 body {
-  color: #314584;
+  color: #CA3DFF;
   font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -115,7 +115,7 @@ h4,
 h5,
 .h5 {
   font-size: 1rem;
-  color: #FF3946;
+  color: #feca57;
 }
 h6,
 .h6 {
@@ -123,7 +123,7 @@ h6,
   margin-bottom: 10px;
 }
 .about p {
-  color: #314584;
+  color: #CA3DFF;
 }
 p {
   font-size: 1.1rem;
@@ -142,22 +142,22 @@ p {
   -webkit-box-shadow: 0px 4px 6px 0px rgba(30,32,33,0.07);
   -moz-box-shadow: 0px 4px 6px 0px rgba(30,32,33,0.07);
   box-shadow: 0px 4px 6px 0px rgba(30,32,33,0.07);
-  background-color: #fff;
+  background-color: rgb(67, 65, 78);
   border-radius: 3px;
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  color: #FF3946;
+  color: #feca57;
 }
 .contact-btn i {
   font-size: 2rem;
   width: 100px;
   height: 100px;
-  color: #FF3946;
+  color: #feca57;
 }
 .hero-btns a:first-child {
-  background-color: #FF3946;
-  border:2px solid #FF3946;
+  background-color: #feca57;
+  border:2px solid #feca57;
   color: #fff;
   padding: 17px 35px;
   font-size: 1.0rem;
@@ -168,24 +168,24 @@ p {
 }
 .hero-btns a:first-child:hover {
   background-color: #fff;
-  border:2px solid #FF3946;
-  color: #314584;
+  border:2px solid #ffffff;
+  color: #CA3DFF;
   padding: 17px 35px;
   font-size: 1.0rem;
   border-radius: 30px;
   transition: all 0.3s ease;
 }
 .hero-btns a:last-child {
-  color: #314584;
+  color: #CA3DFF;
   padding: 17px 35px;
   font-size: 1.0rem;
 }
 .hero-btns a:last-child:hover {
-  color: #FF3946;
+  color: #feca57;
   transition: all 0.3s ease;
 }
 .navbar-light .navbar-toggler {
-  color: #314584;
+  color: #CA3DFF;
   border: none;
 }
 .navbar-toggler {
@@ -208,7 +208,7 @@ p {
 .interactive-menu-button a span {
   height: 4px;
   position: absolute;
-  background: #314584;
+  background: #CA3DFF;
   text-indent: -999em;
   width: 100%;
   top: 6px;
@@ -218,7 +218,7 @@ p {
 .interactive-menu-button a span:after {
   content: '';
   height: 4px;
-  background: #314584;
+  background: #CA3DFF;
   width: 100%;
   position: absolute;
   top: -6px;
@@ -240,7 +240,7 @@ p {
 .navbar-nav .dropdown-menu {
   text-align: center;
   border: 0;
-  background-color: #314584;
+  background-color: #CA3DFF;
 }
 .navbar-nav .dropdown-menu a {
   color: #fff;
@@ -249,16 +249,16 @@ p {
   margin: 10px 0px;
 }
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #FF3946!important;
+  color: #feca57!important;
   text-decoration: none;
-  background-color: #314584;
+  background-color: #CA3DFF;
 }
 .service-btn a {
   color: #fff!important;
   font-size: 0.8rem!important;
 }
 .service-btn a:hover {
-  color: #FF3946!important;
+  color: #feca57!important;
 }
 .more-btn {
   text-align: center;
@@ -266,12 +266,12 @@ p {
 }
 .more-btn a {
   font-size: 1.2rem;
-  color: #FF3946!important;
+  color: #feca57!important;
   cursor: pointer;
   padding: 20px 30px;
 }
 .more-btn a:hover {
-  color: #314584!important;
+  color: #CA3DFF!important;
 }
 .contact-btn {
   text-align: center;
@@ -281,20 +281,20 @@ p {
   color: #fff!important;
 }
 .contact-btn a:hover {
-  color: #314584!important;
+  color: #CA3DFF!important;
 }
 /*-----------------------------------------------------------
   4. Header
 -------------------------------------------------------------*/
 .navbar-light .navbar-nav .nav-link {
-  color: #314584;
+  color: #CA3DFF;
   font-size: 1.1rem;
 }
 .hero-btns {
   margin-bottom: 350px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: #FF3946;
+  color: #feca57;
 }
 .navbar {
   padding: 50px 0 0 0;
@@ -306,7 +306,7 @@ p {
   padding: 0 10px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #FF3946;
+  color: #feca57;
 }
 .hero img {
   position: absolute;
@@ -322,47 +322,20 @@ p {
 .hero p {
   margin-bottom: 50px;
 }
-/*-----------------------------------------------------------
-  5. Services
--------------------------------------------------------------*/
-.services {
-  padding: 50px 0px;
-}
-.services p {
-  font-size: 1.0rem;
-  color: #314584;
-  line-height: 1.5rem;
-}
-.side-img img {
-  position: absolute;
-  left: -20px;
-}
-.side2-img img {
-  position: absolute;
-  right: -20px;
-  top: 1300px;
-}
-.service-box {
-  background-color: #fff;
-  padding: 40px 45px;
-  margin: 10px;
-  -webkit-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
-  -moz-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
-  box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
-  min-height: 400px;
-}
-.service-box img {
-  margin-bottom: 30px;
-}
+
 /*-----------------------------------------------------------
   6. About
 -------------------------------------------------------------*/
 .about {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 /*-----------------------------------------------------------
  7. Portfolio
 -------------------------------------------------------------*/
+.portfolio{
+  margin-top: 300px;
+  height: 675px;
+}
 .portfolio-aside img {
   margin-top: 20px;
   position: absolute;
@@ -382,31 +355,14 @@ p {
 .photobox__previewbox{
   position: relative;
   overflow: hidden;
+  border-style: solid;
+  border-color: black;
+  height: 100px;
 }
 .photobox__preview{
   display: block;
   max-width: 100%;
-}
-.photobox__previewbox:before{
-  content: "";
-}
-.photobox_type10 .photobox__previewbox:before{
-  width: 0;
-  height: 0;
-  padding: 25%;
-  background-color: #314584;
-  opacity: 0.8;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
-  will-change: transform;
-  transform: translate(-50%, -50%) scale(0);
-}
-.photobox_type10:hover .photobox__previewbox:before{
-  transform: translate(-50%, -50%) scale(4);
-  transition-duration: var(--photoboxAnimationDuration, .8s);
+  transition: 0.5s all ease-in-out;
 }
 .photobox_type10 .photobox__label{
   width: 95%;
@@ -434,135 +390,37 @@ p {
   display: none;
   transition: all 0.3s ease;
 }
-/*-----------------------------------------------------------
-  8. Blog
--------------------------------------------------------------*/
-.blog-aside img {
-  position: absolute;
-  right: -20px;
-  margin-top: 200px;
-}
-.blog {
-  padding: 25px 0px;
-  margin-bottom: 100px;
-}
-.blog-box {
-  background-color: #fff;
-  min-height: 330px;
-  max-width: 370px;
-  padding: 50px 25px;
-  -webkit-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
-  -moz-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
-  box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
-  margin: 10px;
-}
-.blog-box p:nth-child(2) {
-  font-size: 0.9rem;
-  color: #6E757A!important;
-}
-.blog-box p:nth-child(3) {
-  font-size: 1.2rem;
-  color: #314584;
-}
-.slick-prev {
-  position: absolute;
-  right: 60px;
-  top: -50px;
-}
-.slick-next  {
-  position: absolute;
-  right: 10px;
-  top: -50px;
-}
-.blog-slider button {
-  font-size: 3rem;
-  border: none;
-  background-color: #fff;
-  color: #BBBBBC;
-}
-.blog-slider button:hover {
-  color: #314584;
-  transition: all 0.3s ease;
-}
-.blog-first {
-  background-color: #FF3946;
-}
-.blog-first h6 {
-  color: #fff;
-}
-.blog-first p:nth-child(2) {
-  color: #fff!important;
-}
-.blog-first p:nth-child(3) {
-  color: #fff;
-}
-.blog-slider {
-  cursor: pointer;
-}
-.hide-blog {
-  display: none;
-}
-#blog-btn {
-  color: #FF3946;
-  font-size: 1.2rem;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  background-color: #fff;
-  border: none;
-  margin-top: 20px;
-}
-#blog-btn:hover {
-  color: #314584;
-}
-.hide-me {
-  display: none;
+.photobox__preview:hover{
+  filter: brightness(50%);
+  transform: scale(1.5);
 }
 /*-----------------------------------------------------------
   9. Contact
 -------------------------------------------------------------*/
 .contact {
   max-height: 550px;
+  margin-top: 200px;
+
 }
 .email input {
   width: 100%;
   height: 60px;
-  background-color: #F4FAFE;
+  background-color: #fefcf4;
   border: none;
   padding: 0px 20px;
-  color: #314584;
+  color: #CA3DFF;
   font-weight: 600;
   margin-bottom: 15px;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #314584;
-  font-weight: 600;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #314584;
-  font-weight: 600;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #314584;
-  font-weight: 600;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #314584;
-  font-weight: 600;
-}
-textarea {
-  background-color: #F4FAFE;
-  border: none;
-  width: 100%;
-  padding: 20px;
-  margin-top: 15px;
-  color: #314584;
+  color: #CA3DFF;
   font-weight: 600;
 }
 /*-----------------------------------------------------------
   10. Footer
 -------------------------------------------------------------*/
 footer {
-  background-color: #314584;
+  background-color: #CA3DFF;
   width: 100%;
   min-height: 400px;
   text-align: center;
@@ -573,7 +431,7 @@ footer h5{
   padding-bottom: 10px;
 }
 footer h3{
-  color: #FF3946;
+  color: #feca57;
   font-size: 3rem;
   margin-bottom: 30px;
 }
@@ -587,7 +445,7 @@ footer h3{
   padding: 20px 20px;
 }
 .contact-nav a:hover {
-  color: #FF3946;
+  color: #feca57;
 }
 footer h6 {
   color: #fff;
@@ -605,7 +463,7 @@ footer h6 {
   margin: 0px 30px;
 }
 .social li a:hover {
-  color: #FF3946;
+  color: #feca57;
   transition: all 0.3s ease;
 }
 /*-----------------------------------------------------------
@@ -664,6 +522,9 @@ footer h6 {
   }
 }
 @media (max-width: 991px) {
+  .filler{
+    display: none;
+  }
   .navbar {
     padding: 15px 0 0 0;
   }
@@ -683,17 +544,11 @@ footer h6 {
   .navbar-light .navbar-nav .nav-link {
     font-size: 2rem;
   }
-  .contact-btn {
-    display: none;
-  }
   .hero-btns {
     margin-bottom: 70px;
   }
   .service-txt {
     text-align: center;
-  }
-  .about img {
-    margin-bottom: 70px;
   }
   .about {
     text-align: center;
@@ -770,4 +625,12 @@ footer h6 {
     display: block;
   }
 }
-
+body{
+  background-color: #f4f8fe;
+}
+#logo{
+  font-size: 1.4rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
