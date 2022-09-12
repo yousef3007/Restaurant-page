@@ -1,43 +1,7 @@
-/*-----------------------------------------------------------
-    Theme Name: Doob | Simple Agency HTML Template
-    Description: Simple Agency HTML Template
-    Author: Graphberry
-    Author URI: https://www.graphberry.com/
-    Version: 1.0
--------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------
-    1  General Styles
-    2  Typography
-    3  Buttons & Links 
-    4  Header
-    5  Services
-    6  About  
-    7  Portfolio
-    8  Blog
-    9  Contact
-    10 Footer
-    11 Responsive 
--------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------
-    1. General Styles 
--------------------------------------------------------------*/
-* {
-  margin: 0;
-  padding: 0;
-}
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
 }
 a {
   font-weight: 600;
@@ -75,9 +39,6 @@ h6,
 :focus {
   outline: none !important;
 }
-/*-----------------------------------------------------------
-  2. Typography 
-------------------------------------------------------------*/
 body {
   color: #CA3DFF;
   font-family: 'Work Sans', sans-serif;
@@ -132,9 +93,7 @@ p {
   margin-bottom: 15px;
   letter-spacing: 0.025em;
 }
-/*-----------------------------------------------------------
-  3. Buttons & Links
--------------------------------------------------------------*/
+
 .contact-btn button {
   width: 200px;
   height: 60px;
@@ -283,9 +242,6 @@ p {
 .contact-btn a:hover {
   color: #CA3DFF!important;
 }
-/*-----------------------------------------------------------
-  4. Header
--------------------------------------------------------------*/
 .navbar-light .navbar-nav .nav-link {
   color: #CA3DFF;
   font-size: 1.1rem;
@@ -323,15 +279,9 @@ p {
   margin-bottom: 50px;
 }
 
-/*-----------------------------------------------------------
-  6. About
--------------------------------------------------------------*/
 .about {
   margin-bottom: 50px;
 }
-/*-----------------------------------------------------------
- 7. Portfolio
--------------------------------------------------------------*/
 .portfolio{
   margin-top: 300px;
   height: 675px;
@@ -348,7 +298,6 @@ p {
   width: 370px;
   height: auto;
 }
-/* Portfolio Gallery Hover */
 .photobox{
   display: inline-block;
 }
@@ -394,9 +343,7 @@ p {
   filter: brightness(50%);
   transform: scale(1.5);
 }
-/*-----------------------------------------------------------
-  9. Contact
--------------------------------------------------------------*/
+
 .contact {
   max-height: 550px;
   margin-top: 200px;
@@ -416,9 +363,7 @@ p {
   color: #CA3DFF;
   font-weight: 600;
 }
-/*-----------------------------------------------------------
-  10. Footer
--------------------------------------------------------------*/
+
 footer {
   background-color: #CA3DFF;
   width: 100%;
@@ -466,9 +411,7 @@ footer h6 {
   color: #feca57;
   transition: all 0.3s ease;
 }
-/*-----------------------------------------------------------
-  11. Responsive
--------------------------------------------------------------*/
+
 @media (max-width: 1700px) {
   .hero-btns {
     margin-bottom: 200px;
