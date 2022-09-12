@@ -411,22 +411,6 @@ footer h6 {
   color: #feca57;
   transition: all 0.3s ease;
 }
-
-@media (max-width: 1700px) {
-  .hero-btns {
-    margin-bottom: 200px;
-  }
-}
-@media (max-width: 1500px) {
-  .hero img {
-    margin-top: 130px;
-  }
-}
-@media (max-width: 1350px) {
-  .hero-btns {
-    margin-bottom: 140px;
-  }
-}
 @media (max-width: 1199px) {
   .nav-item {
     padding: 0px; 
