@@ -27,25 +27,143 @@ export default function Portofolio(){
         <br/>
         <br/>
         <div className="container">
-        <h2>Our Menu.</h2>
-        <div className="row">
-          <Com img ={img1} />
-          <Com img ={img2} />
-          <Com img ={img3} />
-          <Com img ={img1} class ="filler"/>
-          <Com img ={img2} class ="filler"/>
-          <Com img ={img3} class ="filler"/>
+          <h2>Our Menu.</h2>
+          <div className="row">
+            <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div>
+                  <div className="photobox__previewbox">
+                   <img src={img1} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>      
+             
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div>
+                  <div className="photobox__previewbox">
+                   <img src={img2} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>      
+
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div>
+                  <div className="photobox__previewbox">
+                   <img src={img3} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>     
+
+          <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img1} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img2} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+           
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img3} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
         </div>
         <br/>
         <br/>
         <br/>
         <div className="row">
-          <Com img ={img1} class ="filler"/>
-          <Com img ={img2} class ="filler"/>
-          <Com img ={img3} class ="filler"/>
-          <Com img ={img1} class ="filler"/>
-          <Com img ={img2} class ="filler"/>
-          <Com img ={img3} class ="filler"/>
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img1} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+           
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img2} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+           
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img3} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img1} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+           
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img2} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
+           
+           <div className="col-12 col-lg-2 work-box">
+              <div className="photobox photobox_type10">
+                <div className="filler">
+                  <div className="photobox__previewbox">
+                   <img src={img3} height="6" className="photobox__preview" alt="Preview"/>
+                    <span className="photobox__label">Food</span>
+                  </div>
+               </div>
+             </div>
+           </div>
         </div>
       </div>
       <div id="about-us"/>
